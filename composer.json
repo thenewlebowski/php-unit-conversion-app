@@ -1,0 +1,11 @@
+{
+    "name": "coltonn/unit_converter",
+    "description": "Simple unit converter app",
+    "authors": [
+        {
+            "name": "Colton Nielsen",
+            "email": "cltnnielsen@gmail.com"
+        }
+    ],
+    "require": {}
+}

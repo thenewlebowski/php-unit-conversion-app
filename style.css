@@ -1,0 +1,60 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    /* height: 50%; */
+    -webkit-box-shadow: 10px 10px 35px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 35px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 35px -8px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+form input[type=number]{
+    height: 60px;
+    text-align: center;
+}
+
+form{
+    text-align: left;
+    padding:10px;
+}
+
+.form-control{
+    height: 50px;
+}
+
+.col-4{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-row{
+    margin: 40px 0 0 0;
+}
+
+.btn{
+    margin-top: 25px;
+}
+
+.result{
+    text-align: center;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
